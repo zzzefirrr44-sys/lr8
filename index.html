@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме — Шкляр Захарій</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* ====== Горизонтальне меню ====== */
+        nav {
+            background-color: #333;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 15px 25px;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        /* ====== Основний контейнер ====== */
+        .container {
+            width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* ====== Шапка ====== */
+        .header {
+            text-align: center;
+        }
+
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        /* ====== Секції ====== */
+        section {
+            margin-top: 30px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        /* ====== Списки ====== */
+        ul, ol {
+            margin-left: 30px;
+        }
+
+        /* ====== HTML entities блок ====== */
+        .entities {
+            background-color: #eee;
+            padding: 15px;
+            font-family: monospace;
+            margin-top: 20px;
+        }
+        .socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  fill: #333;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  fill: red;
+}
+
+    </style>
+</head>
+
+<body>
+
+<!-- ====== Меню ====== -->
+<nav>
+    <ul>
+        <li><a href="#home">Головна</a></li>
+        <li><a href="#portfolio">Портфоліо</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <!-- ====== Головна ====== -->
+    <section id="home">
+        <div class="header">
+            <!-- Заміни photo.jpg на своє фото -->
+            <img src="Delon.jpg" alt="Фото" class="photo">
+            <h1>Шкляр Захарій</h1>
+            <p>Студент спеціальності «Інженерія програмного забезпечення»</p>
+        </div>
+    </section>
+
+    <!-- ====== Освіта ====== -->
+    <section>
+        <h2>Освіта</h2>
+        <ol>
+            <li>Фаховий коледж
+                <ul>
+                    <li>Спеціальність: ІПЗ</li>
+                    <li>Рік навчання: 2023 – теперішній час</li>
+                </ul>
+            </li>
+            <li>Самоосвіта в галузі програмування</li>
+        </ol>
+    </section>
+
+    <!-- ====== Навички ====== -->
+    <section>
+        <h2>Професійні навички</h2>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>Робота з Git</li>
+        </ul>
+    </section>
+
+    <!-- ====== Портфоліо ====== -->
+    <section id="portfolio">
+        <h2>Портфоліо</h2>
+        <ul>
+            <li>Веб-сторінка резюме</li>
+            <li>Консольні програми на C++</li>
+            <li>База даних для страхової компанії</li>
+        </ul>
+    </section>
+
+    <!-- ====== Контакти ====== -->
+    <section id="contacts">
+        <h2>Контакти</h2>
+        <p>Email: shkliar_zakharii&#64;gmail&#46;com</p>
+        <p>Телефон: &#43;38 &#40;0&#57;9&#41; 123&#45;45&#45;67</p>
+    </section>
+<h3>Соціальні мережі</h3>
+
+<div class="socials">
+  <a href="https://instagram.com/your_profile" target="_blank">
+    <svg class="icon"><use href="#instagram"></use></svg>
+  </a>
+
+  <a href="https://t.me/your_profile" target="_blank">
+    <svg class="icon"><use href="#telegram"></use></svg>
+  </a>
+
+  <a href="https://facebook.com/your_profile" target="_blank">
+    <svg class="icon"><use href="#facebook"></use></svg>
+  </a>
+</div>
+    <!-- ====== HTML entities ====== -->
+    <section>
+        <h2>HTML entities — базова структура HTML</h2>
+        <div class="entities">
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Назва сторінки&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Вміст сторінки<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </div>
+    </section>
+
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+  <symbol id="instagram" viewBox="0 0 24 24">
+    <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.8a1.3 1.3 0 110 2.6 1.3 1.3 0 010-2.6z"/>
+  </symbol>
+
+  <symbol id="telegram" viewBox="0 0 24 24">
+    <path d="M9.9 16.2l-.4 3.6c.6 0 .8-.3 1.1-.6l2.6-2.5 5.4 3.9c1 .5 1.7.2 2-.9l3.6-16.9c.4-1.7-.6-2.4-1.6-2l-21 8.1c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7 12.5-7.9c.6-.4 1.2-.2.7.3"/>
+  </symbol>
+
+  <symbol id="facebook" viewBox="0 0 24 24">
+    <path d="M13 22v-9h3l1-4h-4V7c0-1.2.3-2 2-2h2V1c-.4 0-1.7-.2-3.3-.2-3.3 0-5.7 2-5.7 5.7V9H5v4h3v9h5z"/>
+  </symbol>
+
+</svg>
+</body>
+</html>
